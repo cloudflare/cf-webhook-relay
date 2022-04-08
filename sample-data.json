@@ -1,0 +1,15 @@
+{
+  "name": "Your custom webhook.",
+  "text": "The alert text",
+  "data": {
+    "some": "further",
+    "info":[
+      "about",
+      "your",
+      "alert",
+      "in"
+    ],
+    "json": "format"
+  },
+  "ts": 123456789
+}
