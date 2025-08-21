@@ -1,7 +1,7 @@
 addEventListener("fetch", event => {
     event.respondWith(handleRequest(event.request))
 })
-
+//test2
 async function handleRequest(request) {
     const headers = request.headers
 

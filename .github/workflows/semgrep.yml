@@ -3,9 +3,6 @@ on:
   pull_request: {}
   workflow_dispatch: {}
   push: 
-    branches:
-      - main
-      - master
   schedule:
     - cron: '0 0 * * *'
 name: Semgrep config
@@ -22,4 +19,4 @@ jobs:
       image: returntocorp/semgrep
     steps:
       - uses: actions/checkout@v3
-      - run: semgrep ci
+      - run: ls && semgrep ci
